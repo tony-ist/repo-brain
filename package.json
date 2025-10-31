@@ -1,0 +1,25 @@
+{
+  "name": "repo-brain",
+  "version": "0.1.0",
+  "description": "AI-assisted developer tool for exploring and understanding codebases",
+  "type": "module",
+  "main": "./dist/index.js",
+  "bin": {
+    "repo-brain": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli.ts",
+    "start": "node dist/cli.js",
+    "watch": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["ai", "codebase", "developer-tools", "ast", "semantic-search"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.9.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
